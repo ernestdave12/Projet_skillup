@@ -1,0 +1,14 @@
+# Ignorer les fichiers Python compilés
+*.pyc
+*.pyo
+__pycache__/
+
+# Fichiers statiques générés
+/staticfiles/
+/media/
+
+# Fichiers de configuration sensibles
+*.env
+
+# Fichiers de logs
+*.log
