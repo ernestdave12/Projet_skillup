@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import '../index.css';
 import FormationCard from './FormationCard';
+//import './index.css'; // Assurez-vous d'importer le fichier CSS
 
 const Home = () => {
   const [products, setProducts] = useState([]);

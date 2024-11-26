@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './Components/Home';
 import './App.css';
+import './index.css'
 import FormationDetail from './Components/FormationDetail';
 
 const App = () => {
